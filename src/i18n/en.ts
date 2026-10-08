@@ -9,8 +9,10 @@ export const en: Dictionary = {
   },
   nav: {
     products: 'Products',
+    process: 'How we work',
     about: 'About',
     contact: 'Contact',
+    cta: 'Contact us',
     skip: 'Skip to content',
     switchTo: 'Switch to Spanish',
   },
@@ -18,10 +20,18 @@ export const en: Dictionary = {
     eyebrow: 'Software studio',
     title: 'Simple software for',
     highlight: 'real problems.',
-    lead: 'We design and build focused, fast and easy-to-use web applications. Less noise, more results.',
+    lead: 'We design, build and maintain focused, fast and easy-to-use web applications. Less noise, more results.',
     cta1: 'View products',
     cta2: 'Contact us',
+    cardLabel: 'Available now',
+    cardItems: ['Organized folders and notes', 'Share by e-mail or link', 'Access from any device'],
   },
+  stats: [
+    { value: '1', label: 'Application in production' },
+    { value: 'ES · EN', label: 'Available in two languages' },
+    { value: '100%', label: 'Our own infrastructure' },
+    { value: 'HTTPS', label: 'Always encrypted connection' },
+  ],
   products: {
     eyebrow: 'Products',
     title: 'Tools you can use today',
@@ -32,13 +42,24 @@ export const en: Dictionary = {
     notes: {
       name: 'Notes',
       tagline: 'Your notes, always with you',
-      description:
-        'Organize your ideas in folders, share with other people and access from any device.',
+      description: 'Organize your ideas in folders, share with other people and access from any device.',
+      features: ['Folders and drag and drop', 'Share with people or by link', 'Secure Google sign-in'],
     },
     next: {
       name: 'New product',
       description: 'We are working on new applications. More news very soon.',
     },
+  },
+  process: {
+    eyebrow: 'How we work',
+    title: 'A clear process, from idea to service',
+    lead: 'Four steps we repeat on every product.',
+    steps: [
+      { title: 'Understand', description: 'We define the real problem before writing a single line of code.' },
+      { title: 'Design', description: 'Simple interfaces, made to be used without a manual.' },
+      { title: 'Build', description: 'Modern, fast web development with quality from day one.' },
+      { title: 'Maintain', description: 'We run and improve every product with each release.' },
+    ],
   },
   about: {
     eyebrow: 'About',
@@ -51,9 +72,13 @@ export const en: Dictionary = {
     ],
   },
   contact: {
-    title: "Let's talk",
+    title: 'Tell us your idea',
     text: 'Questions, ideas or collaborations: write to us and we will get back to you soon.',
-    cta: 'Write to info@d4nthi.com',
+    cta: 'info@d4nthi.com',
   },
-  footer: { rights: 'All rights reserved.' },
+  footer: {
+    tagline: 'Simple software for real problems.',
+    sections: 'Sections',
+    rights: 'All rights reserved.',
+  },
 }

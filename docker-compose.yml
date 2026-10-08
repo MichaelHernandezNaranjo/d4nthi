@@ -1,0 +1,15 @@
+# Run from the repo checkout with: docker compose up -d --build
+services:
+  landing:
+    build: .
+    container_name: d4nthi-landing
+    restart: unless-stopped
+    networks:
+      - notes
+
+# Joins the Notes stack network so the existing cloudflared container
+# reaches the landing as http://d4nthi-landing:80 (no published ports).
+networks:
+  notes:
+    name: notes-setup_default
+    external: true

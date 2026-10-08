@@ -1,0 +1,9 @@
+{
+  "name": "D4nthi",
+  "short_name": "D4nthi",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
